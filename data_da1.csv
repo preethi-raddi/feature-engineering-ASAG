@@ -1,0 +1,316 @@
+id,question,desired_answer,student_answer,score_me,score_other,score_avg
+2.1,What is typically included in a class definition?,Data members (attributes) and member functions.,"For us it is usually a set, get, and displayMessge or other messages that tell you what properties a class has but does not reveal its implementations. You could have anything you want in your own class definition.",1,3,2
+2.1,What is typically included in a class definition?,Data members (attributes) and member functions.,The attributes of said class. Also whether or not it is a subclass. Also whether it is public private or protected.,4,4,4
+2.1,What is typically included in a class definition?,Data members (attributes) and member functions.,Information telling the compiler what data members and member functions belong to the class.,5,5,5
+2.1,What is typically included in a class definition?,Data members (attributes) and member functions.,"Since class is user defined, the body of the declaration can contain members, that can be either data or function declarations, and optionally access specifiers.  Example for specifiers would be public, private, and protected.  There is the keyword Class and the Class body is enclosed with brackets ({}). ",5,5,5
+2.1,What is typically included in a class definition?,Data members (attributes) and member functions.,An object and data.,1,3,2
+2.1,What is typically included in a class definition?,Data members (attributes) and member functions.,"It's specific class name, includes only information defined by that class... implementation details... etc.",2,4,3
+2.1,What is typically included in a class definition?,Data members (attributes) and member functions.,data members and member functions.,5,5,5
+2.1,What is typically included in a class definition?,Data members (attributes) and member functions.,A class definition usually contains the function and its data members,5,5,5
+2.1,What is typically included in a class definition?,Data members (attributes) and member functions.,Data members and member functions,5,5,5
+2.1,What is typically included in a class definition?,Data members (attributes) and member functions.,member functions,3,4,3.5
+2.1,What is typically included in a class definition?,Data members (attributes) and member functions.,Member functions and data members belonging to the class.,5,5,5
+2.1,What is typically included in a class definition?,Data members (attributes) and member functions.,a public and private area that includes the functions and variables that are used in the class,5,4,4.5
+2.1,What is typically included in a class definition?,Data members (attributes) and member functions.,"the keyword class followed by they class name, on the inside you declare public and private declarations of your class",3,4,3.5
+2.1,What is typically included in a class definition?,Data members (attributes) and member functions.,A class definition typically includes function definitions.,3,3,3
+2.1,What is typically included in a class definition?,Data members (attributes) and member functions.,"It begins with Class, followed by the class name, then usually a constructor, data members and member functions that delineates the class is included in any class's definition.",5,5,5
+2.1,What is typically included in a class definition?,Data members (attributes) and member functions.,the data and methods,5,4,4.5
+2.1,What is typically included in a class definition?,Data members (attributes) and member functions.,"A constructor, functions, and variables that are accessible to by that class, and possibly other classes depending on how they are done.",5,4,4.5
+2.1,What is typically included in a class definition?,Data members (attributes) and member functions.,Member functions and data members.,5,5,5
+2.1,What is typically included in a class definition?,Data members (attributes) and member functions.,"public section and private section, and there must be a semicolon to set the end",1,4,2.5
+2.1,What is typically included in a class definition?,Data members (attributes) and member functions.,member funtions and data members,5,5,5
+2.1,What is typically included in a class definition?,Data members (attributes) and member functions.,Data members and Member functions,5,5,5
+2.1,What is typically included in a class definition?,Data members (attributes) and member functions.,data members and member functions,5,5,5
+2.1,What is typically included in a class definition?,Data members (attributes) and member functions.,"the class name and its public data types such as constructors, methods, functions.",2,5,3.5
+2.1,What is typically included in a class definition?,Data members (attributes) and member functions.,"a constructor and several data members, and at least one public data member or method",4,5,4.5
+2.1,What is typically included in a class definition?,Data members (attributes) and member functions.,"class name, two curly prenthesis, public and private",1,3,2
+2.1,What is typically included in a class definition?,Data members (attributes) and member functions.,data members and member functions,5,5,5
+2.1,What is typically included in a class definition?,Data members (attributes) and member functions.,Data and functions,5,4,4.5
+2.1,What is typically included in a class definition?,Data members (attributes) and member functions.,functions and data members that belong to the class,5,5,5
+2.1,What is typically included in a class definition?,Data members (attributes) and member functions.,"class variables, function definitions for the class",5,5,5
+2.1,What is typically included in a class definition?,Data members (attributes) and member functions.,"A class is an expanded concept of a data structure, it holds both the data and the functions being executed ",5,4,4.5
+2.2,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,Data members are the data components of a particular class.  A member function are the functioning components of the class.,1,5,3
+2.2,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,A field variable is a variable that is declared as a member of a class. A local variable is avariable that isdeclared local to a method.,1,4,2.5
+2.2,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,"Data members are declared inside the class, but outside of any member functions. Unlike with local variables, each object of the class keeps its own copy of the data members stored in memory.",4,5,4.5
+2.2,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,Data member are variables that represent an attribute in a class definition.  Local variables declared in a function body cannot be used outside of that function body.  When a function terminates the values of its local variables are lost.,4,5,4.5
+2.2,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,A local variable cannot be accessed outside the function in which it is declared. Data members normally are private. Variables of functions declared private are accessible only to member functions of the class in which they are declared.,5,5,5
+2.2,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,"A data member is part of a C++ class or structure that stores data of a certain type... A local variable inside a member function is only available inside that function, and can be used to derive a desired outcome.",4,5,4.5
+2.2,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,A local variable can only be accessed within the scope of its declaration.,3,4,3.5
+2.2,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,Data members are the atributes of the function and can be used outside the function. Local variable can not be used outside the function and the value is lost after the function terminates.,4,5,4.5
+2.2,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,"data members are permanent attributes of the class, local variables inside a member function are lost when the scope of the member function ends.",3,5,4
+2.2,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,data members are declared in a class definition but outside the bodies of a class's member-function definitions. Local variables are declared in a function definition's body,3,5,4
+2.2,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,"A data member is globally accessible, while a local variable is only accessible inside the member function.",4,5,4.5
+2.2,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,A variable inside a member function can only be accessed inside that member and a data member can be accessed throughought the program.,5,5,5
+2.2,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,Local variables are used only within the scope of its declaration,5,4,4.5
+2.2,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,"A data member is a more general term describing all objects instantiated within a member function.  ""Local"" in local variables refers more to the scope of a variable, which may be located in anything from a control structure to a class.  Local variables whose scope are in a member function are the same as data members of member functions.",0,4,2
+2.2,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,A data member exists permanently in that program's memory as long as it's run.  A local variable inside a member function is temporal and only used to operate in the function and exists as long as the function is run.,2,5,3.5
+2.2,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,"local variables can only be used within the function, where as data members can be set to public access and can be used throughout",5,5,5
+2.2,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,"The local variable is lost once it exits the block of code, while the data member is not.",4,5,4.5
+2.2,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,Every member function can access and modify a data member. A local variable can only be used from the line of declaration to the next closing } before it is lost from memory.,4,5,4.5
+2.2,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,"data member is accessible to all functions in the class, where local variable is only available to the member function and value is lost when function closes",5,5,5
+2.2,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,Data members are variables that are declared inside the class definition but outside of the bodies of the class member functions. Local variables can only be used within the function declaration.,4,5,4.5
+2.2,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,"The data member can be accessed outside of the class, whereas the local variable cannot.",3,5,4
+2.2,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,"Local variables cannot be used outside of that function body. When a function terminates the values of its local variables are lost. Where as data members are variables in a class definition, and they exist throughout the life of the object. ",5,5,5
+2.2,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,a local variable in a member function has to be static. a data member can change its value freely.,0,4,2
+2.2,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,"a local variable is only useable within the function it is defined, whereas a data member is available to any method within its class",5,5,5
+2.2,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,Variable declared in a function defination's body cannot be used outside of that function.  Data members accessible only to member function of that class.,5,5,5
+2.2,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,"data members   local variables are declared in a function definition’s body. they Cannot be used outside of that function body. When a function terminates, the values of its local variables are lost.   ",5,4,4.5
+2.2,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,local variable is only available in the function.,4,5,4.5
+2.2,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,local variables are accessed inside member functions only while data members   can be accessed throughout the class,4,5,4.5
+2.2,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,"A data member is accessible anywhere in the class, while i local variable in a member function is only accessible in that particular function, and is freed after the function exits.",5,5,5
+2.2,What is the difference between a data member and a local variable inside a member function?,Data members can be accessed from any member functions inside the class defintion. Local variables can only be accessed inside the member function that defines them.,"a Data member is encapsulated within a class or object,  it is static and can be shared by all instances of that class.  however local variable's are only used from the function or block in which it is declared and not the whole class. other wise they would be called global variables. ",3,5,4
+3.2,What is the scope of global variables?,File scope.,Any functions that follows their deceleration that  are in the source code file are allowed to have access the variables.  Also global scope variables retrain their value throughout the execution of the program.,5,5,5
+3.2,What is the scope of global variables?,File scope.,they can be accessed by any C++ file anywhere.,0,5,2.5
+3.2,What is the scope of global variables?,File scope.,Global variables have file scope.,5,5,5
+3.2,What is the scope of global variables?,File scope.,The scope of global variables are created by placing variable declarations outside any class or function definition.  Global variables retain their values throughout the execution of the program and they can be referenced by any function that follows their declarations or definitions in the source file.,0,5,2.5
+3.2,What is the scope of global variables?,File scope.,A global variable is an identifier that retains it's value throughout the execution of the program. It has file scope.,5,5,5
+3.2,What is the scope of global variables?,File scope.,Global Variables can be used in any function as long as the appropriate .h file that holds the variable is included,3,5,4
+3.2,What is the scope of global variables?,File scope.,They can be accessed by any part of the program. It can be referenced by any function that follows the declarations or definitions in the source file.,5,5,5
+3.2,What is the scope of global variables?,File scope.,can be accesed by any classes that have and object of that variables class in it,1,5,3
+3.2,What is the scope of global variables?,File scope.,Global variables have file-scope.  The variable is know to all functions throught the file,5,5,5
+3.2,What is the scope of global variables?,File scope.,The entire program,4,5,4.5
+3.2,What is the scope of global variables?,File scope.,They have file scope when placed outside a function.,5,5,5
+3.2,What is the scope of global variables?,File scope.,File scope.,5,5,5
+3.2,What is the scope of global variables?,File scope.,They can be used throughout the program,4,5,4.5
+3.2,What is the scope of global variables?,File scope.,Global variable can b accessed by any class wit an object in the variables class,1,5,3
+3.2,What is the scope of global variables?,File scope.,The scope of global variables is at the file level.,5,5,5
+3.2,What is the scope of global variables?,File scope.,Global variables all have file scope.,5,5,5
+3.2,What is the scope of global variables?,File scope.,it is accessible by all functions within a program,4,5,4.5
+3.2,What is the scope of global variables?,File scope.,"variables accessible anywhere in the program, as long as they are public.",4,5,4.5
+3.2,What is the scope of global variables?,File scope.,They can be referenced by any function following their declaration or definition inside the source file.,5,5,5
+3.2,What is the scope of global variables?,File scope.,"globally, anywhere in the program.",4,5,4.5
+3.2,What is the scope of global variables?,File scope.,Global variables have a file scope,5,5,5
+3.2,What is the scope of global variables?,File scope.,The entire program.,4,5,4.5
+3.2,What is the scope of global variables?,File scope.,throughout the execution of the program,4,5,4.5
+3.2,What is the scope of global variables?,File scope.,"If a variable is declared global, any function or class can use that variable.",4,5,4.5
+3.2,What is the scope of global variables?,File scope.,The entire program or file.,5,5,5
+3.2,What is the scope of global variables?,File scope.,throught the programm,4,5,4.5
+3.2,What is the scope of global variables?,File scope.,the whole code,4,5,4.5
+3.2,What is the scope of global variables?,File scope.,File scope,5,5,5
+3.2,What is the scope of global variables?,File scope.,can be referenced by any function that follows their declarations or definitions in the source file,5,5,5
+3.2,What is the scope of global variables?,File scope.,global variables have program scope (accessible anywhere in program),4,5,4.5
+3.2,What is the scope of global variables?,File scope.,variables that exist throught the entire script. their values can be changed anytime in the code and fucntions.,4,5,4.5
+4.3,How are arrays passed to functions?,by reference.,by reference only,5,5,5
+4.3,How are arrays passed to functions?,by reference.,a reference pointer to an element in the array.,4,5,4.5
+4.3,How are arrays passed to functions?,by reference.,Arrays are passed to functions by reference.,5,5,5
+4.3,How are arrays passed to functions?,by reference.,Arrays are passed by reference.,5,5,5
+4.3,How are arrays passed to functions?,by reference.,"you must pass the array and its size to the function. Ex. function(array, size);",4,4,4
+4.3,How are arrays passed to functions?,by reference.,"Usually the same way you pass anything else... you do not have to specify the length of a char array, just pass it to the function by sending the name of the array.  Example: char str[20]; isPalindrome(str); // this sends the char array to the function isPalindrome.  Otherwise, would need to send the length of the array as well.",3,4,3.5
+4.3,How are arrays passed to functions?,by reference.,you pass a pointer to the first item and also pass the size.,4,3,3.5
+4.3,How are arrays passed to functions?,by reference.,By reference.,5,5,5
+4.3,How are arrays passed to functions?,by reference.,"In two parts, the array itself, and it's size, so that the function it's being passed to can avoid out of bounds errors.",4,4,4
+4.3,How are arrays passed to functions?,by reference.,Specify array name without brackets. Array size is normally passed as another argument so the function can process the specific number of elements in the array. Arrays are passed by reference. Individual array elements passed by value. Functions that take arrays as arguments.,5,5,5
+4.3,How are arrays passed to functions?,by reference.,Arrays are passed by reference.,5,5,5
+4.3,How are arrays passed to functions?,by reference.,the same way but with [] at the declaration and the actual function.,3,3,3
+4.3,How are arrays passed to functions?,by reference.,specify the array name without brackets.,3,3,3
+4.3,How are arrays passed to functions?,by reference.,by reference,5,5,5
+4.3,How are arrays passed to functions?,by reference.,"You pass the name of the array to the function. So for: int bin [10]; you pass it to an array like so: jingle(bin); but jingle must be declared correctly in order to receive an array, either with prototype void jingle (int []); or with the definition in its initialization: void jingle (int array[]);  It's also worth noting that arrays are passed to function by reference, so as to not copy large arrays over and over and burn memory.  This gives the function complete control over the array however.",5,5,5
+4.3,How are arrays passed to functions?,by reference.,They are called by the function then the function must loop through the array to get the set of characters.,1,3,2
+4.3,How are arrays passed to functions?,by reference.,"by reference by default, unless you specify const, at which the later will make the array unmodifiable.",5,5,5
+4.3,How are arrays passed to functions?,by reference.,"The function recieves both the array and the array size as parameters. function(arrayName, arraySize)",4,4,4
+4.3,How are arrays passed to functions?,by reference.,specifying array name and passing as reference in an argument into the function,5,5,5
+4.3,How are arrays passed to functions?,by reference.,1st you must specify the array name without brackets and then the array name and size are passed as two arguments in the function call.,4,4,4
+4.3,How are arrays passed to functions?,by reference.,"arrays are passed by reference, passing the starting address of array. programmer specifies the array name without brackets and passes the array size as another argument so the function can process the specific number of elements in the array",5,5,5
+4.3,How are arrays passed to functions?,by reference.,by reference only,5,5,5
+4.3,How are arrays passed to functions?,by reference.,by reference,5,5,5
+4.3,How are arrays passed to functions?,by reference.,by reference,5,5,5
+4.3,How are arrays passed to functions?,by reference.,by refrence,5,5,5
+4.3,How are arrays passed to functions?,by reference.,"function( int [], int length)",4,4,4
+4.3,How are arrays passed to functions?,by reference.,by reference,5,5,5
+4.3,How are arrays passed to functions?,by reference.,by reference,5,5,5
+4.3,How are arrays passed to functions?,by reference.,"The function reads the variables, stores them. then returns the what ever the variable reads. The function then prints the content of the array. ",1,4,2.5
+7.4,How are linked lists passed as arguments to a function?,By reference.,They are passed by reference because you want the function to change the pointer,4,5,4.5
+7.4,How are linked lists passed as arguments to a function?,By reference.,Linked lists are passed as arguments to a function by passing the head pointer of the list by reference.,5,5,5
+7.4,How are linked lists passed as arguments to a function?,By reference.,- A function with access to a linked list's head pointer has access to the entire list.        - Pass the head ponter to a function as a reference argument.,5,5,5
+7.4,How are linked lists passed as arguments to a function?,By reference.,By using a node.,2,3,2.5
+7.4,How are linked lists passed as arguments to a function?,By reference.,Pass-by-reference,5,5,5
+7.4,How are linked lists passed as arguments to a function?,By reference.,you send a pointer to an object of the LinkedList class,2,3,2.5
+7.4,How are linked lists passed as arguments to a function?,By reference.,Passed as a pointer to the head.,5,3,4
+7.4,How are linked lists passed as arguments to a function?,By reference.,Passing the head pointer of a linked list to a function gives that function access to all nodes of that linked list,5,4,4.5
+7.4,How are linked lists passed as arguments to a function?,By reference.,You have to pass the head pointer to a function since it has access to the entire list.,5,3,4
+7.4,How are linked lists passed as arguments to a function?,By reference.,You pass the head pointer to a function as a reference argument.,5,5,5
+7.4,How are linked lists passed as arguments to a function?,By reference.,not answered,0,0,0
+7.4,How are linked lists passed as arguments to a function?,By reference.,passes a pointer to a linked list object,2,3,2.5
+7.4,How are linked lists passed as arguments to a function?,By reference.,"The linked list object contains the head, through which the other elements are accessible.",4,3,3.5
+7.4,How are linked lists passed as arguments to a function?,By reference.,By the head of the list. It takes the head address and traverses from there on in.,5,3,4
+7.4,How are linked lists passed as arguments to a function?,By reference.,as a pointer node.,3,3,3
+7.4,How are linked lists passed as arguments to a function?,By reference.,A method with access to a linked list's head pointer as access to the entire list,5,3,4
+7.4,How are linked lists passed as arguments to a function?,By reference.,A function with access to a linked list's head pointer has access to the entire list. Pass the head pointer to a function as a reference argument,5,5,5
+7.4,How are linked lists passed as arguments to a function?,By reference.,the head pointer is passed to a function as a reference argument.,5,5,5
+7.4,How are linked lists passed as arguments to a function?,By reference.,the pointer to the first element is passed to a function,5,3,4
+7.4,How are linked lists passed as arguments to a function?,By reference.,"linked lists are passed by reference, specificly the Head pointer",5,5,5
+7.4,How are linked lists passed as arguments to a function?,By reference.,Pass the head pointer to a function as a reference argument,5,5,5
+7.4,How are linked lists passed as arguments to a function?,By reference.,by refrenece,5,5,5
+7.4,How are linked lists passed as arguments to a function?,By reference.,By passing the head pointer and going through the list as needed inside the function.,5,3,4
+7.4,How are linked lists passed as arguments to a function?,By reference.,linked lists are passed by using pointers,3,3,3
+7.4,How are linked lists passed as arguments to a function?,By reference.,the head object is passed to the function,4,3,3.5
+7.4,How are linked lists passed as arguments to a function?,By reference.,"Linked lists permit insertion and removal of nodes at any point in the list in constant time,[1] but do not allow random access. ",0,3,1.5
+8.2,What are the two main functions defined by a stack?,push and pop,Push and pop are two main functions defined in a stack,5,5,5
+8.2,What are the two main functions defined by a stack?,push and pop,Push which inserts an element on the top of the stack and pop which removes the last inserted element from the stack.,5,5,5
+8.2,What are the two main functions defined by a stack?,push and pop,Push and pop.,5,5,5
+8.2,What are the two main functions defined by a stack?,push and pop,Pop function and Push function,5,5,5
+8.2,What are the two main functions defined by a stack?,push and pop,push and pop.,5,5,5
+8.2,What are the two main functions defined by a stack?,push and pop,push (insert an item) pop (remove an item),5,5,5
+8.2,What are the two main functions defined by a stack?,push and pop,Adding a new item and removing the item,5,5,5
+8.2,What are the two main functions defined by a stack?,push and pop,Push (insert) and pop (retrieve).,5,5,5
+8.2,What are the two main functions defined by a stack?,push and pop,push and pop.,5,5,5
+8.2,What are the two main functions defined by a stack?,push and pop,Push and Pop.,5,5,5
+8.2,What are the two main functions defined by a stack?,push and pop,pop and push,5,5,5
+8.2,What are the two main functions defined by a stack?,push and pop,push (add an element) pop (remove an element),5,5,5
+8.2,What are the two main functions defined by a stack?,push and pop,Push and pop.,5,5,5
+8.2,What are the two main functions defined by a stack?,push and pop,pop and push,5,5,5
+8.2,What are the two main functions defined by a stack?,push and pop,push ( to add to a item the Stack) Pop  ( to pull the last item added from an array. ),5,5,5
+8.2,What are the two main functions defined by a stack?,push and pop,pop and push,5,5,5
+8.2,What are the two main functions defined by a stack?,push and pop,"push and pop, push puts an object into the list, and pop takes the last object off.",5,5,5
+8.2,What are the two main functions defined by a stack?,push and pop,Push and Pop are the two main functions of a stack,5,5,5
+8.2,What are the two main functions defined by a stack?,push and pop,Push and Pop,5,5,5
+8.2,What are the two main functions defined by a stack?,push and pop,"push, which adds an element to the stack... and pop which takes an element off the stack",5,5,5
+8.2,What are the two main functions defined by a stack?,push and pop,"Push and Pop, which add and remove data from the stack, respectively.",5,5,5
+8.2,What are the two main functions defined by a stack?,push and pop,push and pop,5,5,5
+8.2,What are the two main functions defined by a stack?,push and pop,pop - to remove item push - to insert an element,5,5,5
+8.2,What are the two main functions defined by a stack?,push and pop,Pop and push,5,5,5
+8.2,What are the two main functions defined by a stack?,push and pop,pop and push,5,5,5
+8.2,What are the two main functions defined by a stack?,push and pop,push - adds an item to the top of the stack pop - removes the top item from the stack,5,5,5
+8.2,What are the two main functions defined by a stack?,push and pop,push and pop. Push adds a given node to the top of the stack leaving previous nodes below. Pop removes and returns the current top node of the stack,5,5,5
+9.3,How can you implement a queue with an array?,"Use a circular array. Keep the rear of the queue toward the end of the array, and the front toward the beginning, and allow the rear pointer to wrap around.",Make use of a front pointer and a tail pointer.  When the tail pointer reaches the end of an array it gets reset to the front of the array.  If the two pointers are equal then the queue is either full or just has one element.,5,4,4.5
+9.3,How can you implement a queue with an array?,"Use a circular array. Keep the rear of the queue toward the end of the array, and the front toward the beginning, and allow the rear pointer to wrap around.",you create an array with the max size of your queue and adjust the items to make them follow FIFO procedure.,2,4,3
+9.3,How can you implement a queue with an array?,"Use a circular array. Keep the rear of the queue toward the end of the array, and the front toward the beginning, and allow the rear pointer to wrap around.",By implementing an array and only adding items to the end of the array and only removing items from the beginning of the array.,2,4,3
+9.3,How can you implement a queue with an array?,"Use a circular array. Keep the rear of the queue toward the end of the array, and the front toward the beginning, and allow the rear pointer to wrap around.","For applications in which a fixed-sized queue does not present a problem, you can use an array to represent a queue. ",1,4,2.5
+9.3,How can you implement a queue with an array?,"Use a circular array. Keep the rear of the queue toward the end of the array, and the front toward the beginning, and allow the rear pointer to wrap around.",Keep track of the front and the back of the array as you increase and decrease the elements inside the array.,4,4,4
+9.3,How can you implement a queue with an array?,"Use a circular array. Keep the rear of the queue toward the end of the array, and the front toward the beginning, and allow the rear pointer to wrap around.","Declare the size of an array, and have special conditional statements (pointers) to make sure you re-use ALL of the array. Say, you have an array of 20 elements, you load up 18, then dequeue 3, when you enqueue 4 more elements, you want to loop back to index 0 and continue from there... this process saves resources.",5,4,4.5
+9.3,How can you implement a queue with an array?,"Use a circular array. Keep the rear of the queue toward the end of the array, and the front toward the beginning, and allow the rear pointer to wrap around.",you could use the first element of the list as the remove point and insert at the end f you do this you would have to shift the elements down each time you remove an item unless you make the array circular.,3,5,4
+9.3,How can you implement a queue with an array?,"Use a circular array. Keep the rear of the queue toward the end of the array, and the front toward the beginning, and allow the rear pointer to wrap around.",Utilizing indexes for the front and the back.  Front is 0 and as you add items the back index is incremented.,4,4,4
+9.3,How can you implement a queue with an array?,"Use a circular array. Keep the rear of the queue toward the end of the array, and the front toward the beginning, and allow the rear pointer to wrap around.","Declare two variables, “front” and “rear”, to be used to denote which elements in the array can be accessed. Increment “rear” whenever data is enqueued to the end and increment “front” whenever data is dequeued.",5,4,4.5
+9.3,How can you implement a queue with an array?,"Use a circular array. Keep the rear of the queue toward the end of the array, and the front toward the beginning, and allow the rear pointer to wrap around.",It is an array of fixed size. A queue of maximum N elements.,1,4,2.5
+9.3,How can you implement a queue with an array?,"Use a circular array. Keep the rear of the queue toward the end of the array, and the front toward the beginning, and allow the rear pointer to wrap around.","make an array of a size, and add on to the front and delete from the back, keep track of the two so that you know when it is full and where to add or subtract from",4,4,4
+9.3,How can you implement a queue with an array?,"Use a circular array. Keep the rear of the queue toward the end of the array, and the front toward the beginning, and allow the rear pointer to wrap around.",By using the beginning of the array as the removal point of the queue (or beginning of the queue) and the ith element as the end of the queue.,3,4,3.5
+9.3,How can you implement a queue with an array?,"Use a circular array. Keep the rear of the queue toward the end of the array, and the front toward the beginning, and allow the rear pointer to wrap around.","add in data from the first element to the last, take out data from the first element to the last.",2,4,3
+9.3,How can you implement a queue with an array?,"Use a circular array. Keep the rear of the queue toward the end of the array, and the front toward the beginning, and allow the rear pointer to wrap around.",you can take the array and put it in a queue stack or you can just traverse the list and keep track of top and bottom,3,4,3.5
+9.3,How can you implement a queue with an array?,"Use a circular array. Keep the rear of the queue toward the end of the array, and the front toward the beginning, and allow the rear pointer to wrap around.","create a fixed array size, with with 2 integers to point to the beginning and the end of the que, and special cases to know when the que is empty or full.",4,4,4
+9.3,How can you implement a queue with an array?,"Use a circular array. Keep the rear of the queue toward the end of the array, and the front toward the beginning, and allow the rear pointer to wrap around.",Keep track of the front and rear indexes. Either: 1)Dequeue items by shifting the array left 2)Use wrapped configuration,4,4,4
+9.3,How can you implement a queue with an array?,"Use a circular array. Keep the rear of the queue toward the end of the array, and the front toward the beginning, and allow the rear pointer to wrap around.","add items into a fixed size array, pull the items out by calling on them with the starting index, increase starting index so when it calls again its now the next index element in the array.",3,4,3.5
+9.3,How can you implement a queue with an array?,"Use a circular array. Keep the rear of the queue toward the end of the array, and the front toward the beginning, and allow the rear pointer to wrap around.","To use and array to implement a Queue, element or item 0, should be the top element in the array. Every time an element is inserted, all the items in the array are pushed back one space. The top element is always removed first.",2,4,3
+9.3,How can you implement a queue with an array?,"Use a circular array. Keep the rear of the queue toward the end of the array, and the front toward the beginning, and allow the rear pointer to wrap around.",fixed size array with max N elements.  Need to keep track of front and rear of array.,4,4,4
+9.3,How can you implement a queue with an array?,"Use a circular array. Keep the rear of the queue toward the end of the array, and the front toward the beginning, and allow the rear pointer to wrap around.","by keeping track of a front item and a rear item, or with a circular array that uses the modulo function",5,5,5
+9.3,How can you implement a queue with an array?,"Use a circular array. Keep the rear of the queue toward the end of the array, and the front toward the beginning, and allow the rear pointer to wrap around.","Using an array for a queue, the size of the array allocated limits the size of the queue. An array based queue class must keep track of both the front and back of the queue, which may need to wrap around the array.",5,5,5
+9.3,How can you implement a queue with an array?,"Use a circular array. Keep the rear of the queue toward the end of the array, and the front toward the beginning, and allow the rear pointer to wrap around.","A pointer based implementation of a queue could use a linear linked list with two external pointers, one to the front and one to the back",0,4,2
+9.3,How can you implement a queue with an array?,"Use a circular array. Keep the rear of the queue toward the end of the array, and the front toward the beginning, and allow the rear pointer to wrap around.",remove the element then shift the elements one space back,2,4,3
+9.3,How can you implement a queue with an array?,"Use a circular array. Keep the rear of the queue toward the end of the array, and the front toward the beginning, and allow the rear pointer to wrap around.",By having the head pointer point to the first or least current data entered and having the tail point to the most current data entered. A method must be created so that the tail pointer doesn't leave the array.,5,5,5
+9.3,How can you implement a queue with an array?,"Use a circular array. Keep the rear of the queue toward the end of the array, and the front toward the beginning, and allow the rear pointer to wrap around.",an array is a type of queue with a fixed length,0,3,1.5
+9.3,How can you implement a queue with an array?,"Use a circular array. Keep the rear of the queue toward the end of the array, and the front toward the beginning, and allow the rear pointer to wrap around.","your storage class has an array, and you keep track of the index of the first and last item in the array, and wrap around when end of the array is full",5,5,5
+9.3,How can you implement a queue with an array?,"Use a circular array. Keep the rear of the queue toward the end of the array, and the front toward the beginning, and allow the rear pointer to wrap around.",Boolean isFullQ(queue) ::= rear == MAX_QUEUE_SIZE-1,5,5,5
+9.6,What is the stack operation corresponding to the enqueue operation in queues?,push,Push.,5,5,5
+9.6,What is the stack operation corresponding to the enqueue operation in queues?,push,"push, which inserts something at the top of the stack.",5,5,5
+9.6,What is the stack operation corresponding to the enqueue operation in queues?,push,The stack operation corresponding to enqueue in queues is the push operation.,5,5,5
+9.6,What is the stack operation corresponding to the enqueue operation in queues?,push,"Push in a stack operation corresponds to the enqueue operation in queues.  These operations insert a new item into one end(the top and back, respectively) of the ADT.",5,5,5
+9.6,What is the stack operation corresponding to the enqueue operation in queues?,push,The stack operation is almost the opposite of the enqueue operation.,0,5,2.5
+9.6,What is the stack operation corresponding to the enqueue operation in queues?,push,push = enqueue pop = dequeue,5,4,4.5
+9.6,What is the stack operation corresponding to the enqueue operation in queues?,push,push,5,5,5
+9.6,What is the stack operation corresponding to the enqueue operation in queues?,push,Not sure what this question means.  You can use the stack 'push' operation and the enqueue operation to detect palindromes.,5,5,5
+9.6,What is the stack operation corresponding to the enqueue operation in queues?,push,"Enqueue is the queue equivalent of push, and dequeue is the queue equivalent to pop.",5,5,5
+9.6,What is the stack operation corresponding to the enqueue operation in queues?,push,Push operation.,5,5,5
+9.6,What is the stack operation corresponding to the enqueue operation in queues?,push,push,5,5,5
+9.6,What is the stack operation corresponding to the enqueue operation in queues?,push,push,5,5,5
+9.6,What is the stack operation corresponding to the enqueue operation in queues?,push,push,5,5,5
+9.6,What is the stack operation corresponding to the enqueue operation in queues?,push,push,5,5,5
+9.6,What is the stack operation corresponding to the enqueue operation in queues?,push,"that would be the push operation, if it put the item at the end of the list.",5,5,5
+9.6,What is the stack operation corresponding to the enqueue operation in queues?,push,push,5,5,5
+9.6,What is the stack operation corresponding to the enqueue operation in queues?,push,push,5,5,5
+9.6,What is the stack operation corresponding to the enqueue operation in queues?,push,the Push method in the stack operations.,5,5,5
+9.6,What is the stack operation corresponding to the enqueue operation in queues?,push,push,5,5,5
+9.6,What is the stack operation corresponding to the enqueue operation in queues?,push,enqueue corresponds with push dequeue corresponds with pop,5,4,4.5
+9.6,What is the stack operation corresponding to the enqueue operation in queues?,push,"Push corresponds with enqueue, both very similarly place new elements into their stack or queue",5,5,5
+9.6,What is the stack operation corresponding to the enqueue operation in queues?,push,FIFO: First in First out,0,3,1.5
+9.6,What is the stack operation corresponding to the enqueue operation in queues?,push,push,5,5,5
+9.6,What is the stack operation corresponding to the enqueue operation in queues?,push,Push,5,5,5
+9.6,What is the stack operation corresponding to the enqueue operation in queues?,push,push,5,5,5
+9.6,What is the stack operation corresponding to the enqueue operation in queues?,push,push,5,5,5
+9.6,What is the stack operation corresponding to the enqueue operation in queues?,push,push,5,5,5
+11.2,What are the access-specifiers that can be used in a C++ class definition?,Private and public.,Public and private specifiers.,5,5,5
+11.2,What are the access-specifiers that can be used in a C++ class definition?,Private and public.,"Public, Private, Restricted",4.5,4.75,4.625
+11.2,What are the access-specifiers that can be used in a C++ class definition?,Private and public.,The access specifiers are public and private.,5,5,5
+11.2,What are the access-specifiers that can be used in a C++ class definition?,Private and public.,public private protected,5,4.75,4.875
+11.2,What are the access-specifiers that can be used in a C++ class definition?,Private and public.,Public or Private.,5,5,5
+11.2,What are the access-specifiers that can be used in a C++ class definition?,Private and public.,public: the function or variable can be used outside the class private: the function or variable can only be used with the class,5,5,5
+11.2,What are the access-specifiers that can be used in a C++ class definition?,Private and public.,Public and Private,5,5,5
+11.2,What are the access-specifiers that can be used in a C++ class definition?,Private and public.,public private and protected,5,4.75,4.875
+11.2,What are the access-specifiers that can be used in a C++ class definition?,Private and public.,Public Private,5,5,5
+11.2,What are the access-specifiers that can be used in a C++ class definition?,Private and public.,"Private, public, protected",5,4.75,4.875
+11.2,What are the access-specifiers that can be used in a C++ class definition?,Private and public.,The access-specifiers that can be used in a C++ class definition is private and public.,5,5,5
+11.2,What are the access-specifiers that can be used in a C++ class definition?,Private and public.,public and private.,5,5,5
+11.2,What are the access-specifiers that can be used in a C++ class definition?,Private and public.,"static, long, unsigned",0,1.25,0.625
+11.2,What are the access-specifiers that can be used in a C++ class definition?,Private and public.,"Private, Public, Protected, or Friend.",5,4.75,4.875
+11.2,What are the access-specifiers that can be used in a C++ class definition?,Private and public.,"A C++ class definition may include access-specifiers public, private, and static.",4,5,4.5
+11.2,What are the access-specifiers that can be used in a C++ class definition?,Private and public.,"local, global, local-variable, function specific",1.5,2.5,2
+11.2,What are the access-specifiers that can be used in a C++ class definition?,Private and public.,"public, private",5,5,5
+11.2,What are the access-specifiers that can be used in a C++ class definition?,Private and public.,"Public, protected, and private.",5,4.75,4.875
+11.2,What are the access-specifiers that can be used in a C++ class definition?,Private and public.,"private, public",5,5,5
+11.2,What are the access-specifiers that can be used in a C++ class definition?,Private and public.,public - can be accessed by any of the program  private - can only be accessed by the class functions themselves and no outside functions or calls,5,5,5
+11.2,What are the access-specifiers that can be used in a C++ class definition?,Private and public.,"public , private, protected",5,5,5
+11.2,What are the access-specifiers that can be used in a C++ class definition?,Private and public.,public and private,5,5,5
+11.2,What are the access-specifiers that can be used in a C++ class definition?,Private and public.,"public, private, protected",5,4.75,4.875
+11.2,What are the access-specifiers that can be used in a C++ class definition?,Private and public.,"functions and data members can be given access-specifications of public, private, and friend. public access is given to any functions or members not given specific access rights.",5,4.75,4.875
+11.2,What are the access-specifiers that can be used in a C++ class definition?,Private and public.,data member or data functions are access specifiers,0,1.25,0.625
+11.2,What are the access-specifiers that can be used in a C++ class definition?,Private and public.,public or private,5,5,5
+11.2,What are the access-specifiers that can be used in a C++ class definition?,Private and public.,public and private,5,5,5
+11.2,What are the access-specifiers that can be used in a C++ class definition?,Private and public.,public and private,5,5,5
+11.2,What are the access-specifiers that can be used in a C++ class definition?,Private and public.,"public - can be accessed from outside the class private - accessible only from inside the class, not inherited protected - accessible only from inside the class, inherited",5,4.75,4.875
+11.2,What are the access-specifiers that can be used in a C++ class definition?,Private and public.,public private protected,5,5,5
+11.6,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,"Iteration, performers  a series of checks and loops.",5,5,5
+11.6,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,The alternative method is to use loops in the program instead of a function which calls itself.,5,2.5,3.75
+11.6,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,An alternative to solving a problem using recursive functions is to solve the problem using iteration.,5,5,5
+11.6,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,"Iteration, this would be more efficient and has repetition structure.",5,5,5
+11.6,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,One can use iteration or by using a simple while/for loop.,5,5,5
+11.6,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,iteration,5,5,5
+11.6,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,"Iteration. A while loop or a for loop will be able to accomplish the same desired outcome... It may be faster than recursion, but could also be harder to understand.",5,5,5
+11.6,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,you can also solve the problem iteratively,5,5,5
+11.6,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,iterative,5,5,5
+11.6,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,Using iteration loops.,5,5,5
+11.6,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,Another alternative way to solve a problem instead of using recursive functions is by using iteration.,5,5,5
+11.6,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,"A recursive function can often be solved using an iterative function, which runs faster, but is often more complicated.",5,5,5
+11.6,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,iteration,5,5,5
+11.6,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,Any recursive function can be solved using an iterative method.,5,5,5
+11.6,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,"Many recursive solutions may also be solved with looping control statements, such as while, for, do-while, etc.",5,3,4
+11.6,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,"Using an iterative function, which repeats a specified operation or set of operations until a terminating point or base case is reached.  ",5,5,5
+11.6,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,iteratively,5,5,5
+11.6,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,using an Iterative calls,5,5,5
+11.6,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,Iteration.,5,5,5
+11.6,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,iteration is the alternative way to solve a problem,5,5,5
+11.6,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,using an iterative solution instead,5,5,5
+11.6,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,"Using an iterative solution.  For, while, or do while loop.",5,5,5
+11.6,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,the alternative way to solve a problem that could be solved using recursion is iteration.,5,5,5
+11.6,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,"Any problem solved recursively could be solved with an iterative function. Iterative replacements for recursive functions may be more difficult to program, but often lead to more efficient solutions to a problem. ",5,5,5
+11.6,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,by iteration,5,5,5
+11.6,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,"itteration, like a for loop, a while loop, or a do while loop",5,5,5
+11.6,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,Iteration by using loops,5,5,5
+11.6,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,iterative functions,5,5,5
+11.6,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,iteration,5,5,5
+11.6,What is the alternative way to solve a problem that could be solved through recursive functions?,Through iteration.,"the alt, way is to use a functions parameter in a call ""to"" function. ",2.5,2.5,2.5
+12.7,What are the main operations associated with a stack?,push and pop,push and pop,5,5,5
+12.7,What are the main operations associated with a stack?,push and pop,"Pop, which removes the head, or least recently inserted node from the stack. Push, which inserts a new node at the head of the stack.",5,5,5
+12.7,What are the main operations associated with a stack?,push and pop,Push and pop,5,5,5
+12.7,What are the main operations associated with a stack?,push and pop,The Push function and the Pop function.,5,5,5
+12.7,What are the main operations associated with a stack?,push and pop,push and pop,5,5,5
+12.7,What are the main operations associated with a stack?,push and pop,push - puts an element on the stack pop- takes an element off the stack,5,5,5
+12.7,What are the main operations associated with a stack?,push and pop,Push  and pop.,5,5,5
+12.7,What are the main operations associated with a stack?,push and pop,Push and Pop,5,5,5
+12.7,What are the main operations associated with a stack?,push and pop,push and pop.,5,5,5
+12.7,What are the main operations associated with a stack?,push and pop,"Push and Pop. Push adds an element to the stack, while Pop removes the top element from a stack.",5,5,5
+12.7,What are the main operations associated with a stack?,push and pop,pop and push,5,5,5
+12.7,What are the main operations associated with a stack?,push and pop,"push,pop,search,isEmpty",4,5,4.5
+12.7,What are the main operations associated with a stack?,push and pop,push and pop,5,5,5
+12.7,What are the main operations associated with a stack?,push and pop,"Push, Pop, isEmpty, isFull  Maybe List to show all elements or an operation to count how many elements in the stack.",4.5,5,4.75
+12.7,What are the main operations associated with a stack?,push and pop,"pop, push",5,5,5
+12.7,What are the main operations associated with a stack?,push and pop,"isempty, push and pop, along with usually, ",5,5,5
+12.7,What are the main operations associated with a stack?,push and pop,push and pop,5,5,5
+12.7,What are the main operations associated with a stack?,push and pop,push and pop. push puts objects into the stack and pop takes them out following the first in last out rule.,5,5,5
+12.7,What are the main operations associated with a stack?,push and pop,"The main operations in a stack are push and pop. Push adds an item to the top of the stack, pop removes the top item from the stack.",5,5,5
+12.7,What are the main operations associated with a stack?,push and pop,push and pop,5,5,5
+12.7,What are the main operations associated with a stack?,push and pop,"push, which adds an item to the top of the stack, and pop, which takes the first item off the top to the stack",5,5,5
+12.7,What are the main operations associated with a stack?,push and pop,"the main functions defined for a stack are push, which puts an element on the top of the stack, and pop, which removes an item from the top.",5,5,5
+12.7,What are the main operations associated with a stack?,push and pop,Push() Pop() Full() IsEmpty(),4.5,5,4.75
+12.7,What are the main operations associated with a stack?,push and pop,pop and push to remove an element and to insert an element,5,5,5
+12.7,What are the main operations associated with a stack?,push and pop,"Push, Pop",5,5,5
+12.7,What are the main operations associated with a stack?,push and pop,push and pop,5,5,5
+12.7,What are the main operations associated with a stack?,push and pop,push - Add an element to the top of the stack pop - remove the top element from the stack,5,5,5
+12.7,What are the main operations associated with a stack?,push and pop,push and pop,5,5,5
